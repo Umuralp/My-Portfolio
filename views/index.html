@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Umuralp Alaosman</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="/styles/grid.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-text">
+        <h1>Umuralp ALAOSMAN - Bir MERN Stack Developer</h1>
+        <h2 id="age"></h2>
+        <a href="#" class="btn btn-info life-scroll">Hayatıma Göz Atın!</a>
+      </div>
+    </header>
+    <main>
+      <section id="Education">
+        <h3>Eğitim Öğretim Hayatım</h3>
+        <p class="act-paragraph">
+          Benim eğitim öğretim hayatım alışılmışın dışınadaydı. 1. Sınıfı
+          Türkiye'de, 2. ve 3. sınıfı Belçika'da, 4. sınıfın 2 dönemini
+          Türkiye'deki 2 farklı okulda okuduktan sonra halen okumakta olduğum
+          orta okul hayatımın 6. sınıfını Muğla Datça'da devam ettiriyorum.
+        </p>
+      </section>
+
+      <section id="Programming">
+        <h3>Yazılım Hayatım</h3>
+        <p class="act-paragraph">
+          Haziran 2021'den bu yana
+          <a href="https://bilisimschool.com" target="_blank">Bilişim School</a>
+          adında bir yazılım kursunda eğitim görüyorum. Python, Html, Css,
+          Javascript, Mongo.db, Node.js konularında bilgim var ve çeşitli
+          projeler yaptım.
+        </p>
+      </section>
+
+      <section id="Courses">
+        <h3>Aldığım Kurslar</h3>
+        <p class="act-paragraph">
+          Hem yurt dışında, hem de Türkiye'de birçok kurs aldım. Yurt dışında,
+          satranç kursuna gittim ve orada Flaman bölge ikincisi oldum. Türkiyede
+          ise okulun Destekleme ve Yetiştirme Kursları dışında yazılıma merak
+          sardım. Merakım doğrultusunda yazılım kursu aramaya başladım.
+          <a href="https://bilisimschool.com" target="_blank">Bilişim School</a>
+          ile tanışmam da bu esnada oldu. Şu anda bu portfolyoyu yazamamı bu
+          tanışıklığın ardından gelen samimi sürece borçluyum. scratch ile
+          başlayan süreç daha sonrasında pyhton ile devam etti ve sonrsaında
+          HTML, CSS, JavaScript, Node.js, Exspress ve React öğrendim.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="row">
+        <ul class="social">
+          <li>
+            <a href="https://www.instagram.com/umuralp.alaosman" target="_blank"
+              ><i class="bi bi-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/umuralpdev" target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="bi bi-envelope-at"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <p>Copyright &copy; 2021 by Camp for Everybody</p>
+      </div>
+    </footer>
+
+    <script>
+      const year = new Date().getFullYear();
+      document.getElementById("age").innerHTML =
+        document.getElementById("age").innerHTML +
+        " " +
+        (year - 2011) +
+        " yaşında bir MERN Stack Developer...";
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.waypoints.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
